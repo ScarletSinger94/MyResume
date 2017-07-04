@@ -698,7 +698,18 @@ header .intro-text {
 
 @media(min-width:992px) {
 	.intro {
-		background: url(../img/about.jpg) no-repeat center top;
+		display: table;
+		width: 100%;
+		height: auto;
+		padding: 100px 0;
+		text-align: center;
+		color: #000;
+	background: url(../img/josh.jpg) no-repeat center top;
+		background-color: #7bc3d1;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
 	}
 #here-me h1 {
 	margin: 10px 0 0px;
@@ -726,7 +737,18 @@ header .intro-text {
 
 @media(min-width:1200px) {
 	.intro {
-		background: url(../img/josh.jpg) no-repeat center top;
+		display: table;
+		width: 100%;
+		height: auto;
+		padding: 100px 0;
+		text-align: center;
+		color: #000;
+		background: url(../img/intro-bg.jpg) no-repeat center top;
+		background-color: #7bc3d1;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
 	}
 .timeline>li {
 	min-height: 170px;
