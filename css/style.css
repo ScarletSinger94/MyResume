@@ -138,8 +138,8 @@ hr {
 }
 .btn-default {
 	color: #000;
-	background-color: transparent;
-	border-color: #000;
+	background-color: gray;
+	border-color: #fff;
 	padding: 10px 20px;
 	margin: 0;
 	font-size: 16px;
@@ -155,7 +155,7 @@ hr {
 	background-color: #121d1f;
 	padding: 10px 20px;
 	border-color: #121d1f;
-	border-radius: 0;
+	border-radius: 2;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
@@ -172,9 +172,12 @@ hr {
 	height: auto;
 	padding: 250px 0;
 	text-align: center;
+	font-size: 30px;
 	color: #FFF;
-	background: url(../img/intro-bg.jpg) no-repeat center top;
+	background: url(../img/about.jpg) no-repeat center top;
 	background-color: #7bc3d1;
+	-webkit-text-stroke-width: .5px;
+   -webkit-text-stroke-color: black;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -639,6 +642,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding: 0;
 	background: url(../img/steps.jpg) no-repeat center top;
 	text-align: left;
+	-webkit-text-stroke-width: 0px;
+	 -webkit-text-stroke-color: none;
 	color: #FFF;
 }
 .intro H1 {
@@ -654,7 +659,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro .intro-text p {
 	font-family: 'Lato', sans-serif;
-	font-size: 20px;
+	font-size: 30px;
 	margin-bottom: 40px;
 	margin-top: 20px;
 }
