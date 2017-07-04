@@ -639,7 +639,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding: 0;
 	background: url(../img/steps.jpg) no-repeat center top;
 	text-align: left;
-	color: #000;
+	color: #FFF;
 }
 .intro H1 {
 	font-size: 60px;
